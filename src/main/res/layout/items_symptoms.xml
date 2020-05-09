@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+   android:padding="10dp"
+    android:layout_margin="10dp"
+    android:background="@color/Ivory">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_bg">
+    <ImageView
+        android:id="@+id/imgSymptoms"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/cough_symptoms"
+        ></ImageView>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtSymptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/goblin_one"
+            android:padding="10dp"
+            android:text="Dry Cough"
+            android:textColor="@color/Black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txtSymptomsdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="2dp"
+            android:text="Symptoms like dry coughs for 3 days and also severe cough after 3-4 days"
+            android:textColor="@color/Gray"
+            android:textSize="10dp" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

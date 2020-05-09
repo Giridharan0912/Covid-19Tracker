@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".KnowMoreActivity"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@color/Pink">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:padding="10dp"
+            android:text="@string/knowMore"
+            android:textColor="@color/White"
+            android:textSize="20dp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/goblin_one"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:text="HOW IT SPREADS"
+            android:textColor="@color/MidnightBlue"
+            android:textSize="20dp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:padding="10dp"
+            android:text="COVID-19 spreads mainly by droplets produced as a result of coughing or sneezing of a COVID-19 infected person."
+            android:textColor="@color/White"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/learnMoreBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn more"
+            android:textAlignment="center"
+            android:layout_marginLeft="120dp"
+            android:textColor="@color/White"
+            android:background="@color/MidnightBlue"></Button>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
